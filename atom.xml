@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>wushuang</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-09-04T12:38:41.468Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo blog</title>
+    <link href="http://yoursite.com/2019/09/04/hexo-blog/"/>
+    <id>http://yoursite.com/2019/09/04/hexo-blog/</id>
+    <published>2019-09-04T10:38:41.000Z</published>
+    <updated>2019-09-04T12:38:41.468Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考了这个搭的hexo博客。<a href="https://www.youtube.com/watch?v=RcJxnNpj64k" target="_blank" rel="noopener">如何用hexo+github pages 搭建免费博客</a><br>这个后续加深理解主题，<a href="https://blog.csdn.net/lsshlsw/article/details/50322465" target="_blank" rel="noopener">Hexo 主题使用进阶</a><br>当然这个，具体主题。<a href="http://blackshow.me/2015/11/25/hexo-theme-freemind-386-readme-cn/" target="_blank" rel="noopener">FREEMIND.386中文说明</a></p>]]></content>
+    
+    <summary type="html">
+    
+      hexo blog building
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="http://yoursite.com/categories/blog/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="theme" scheme="http://yoursite.com/tags/theme/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>networksolutions</title>
+    <link href="http://yoursite.com/2019/09/04/networksolutions/"/>
+    <id>http://yoursite.com/2019/09/04/networksolutions/</id>
+    <published>2019-09-03T18:25:36.000Z</published>
+    <updated>2019-09-04T15:44:59.203Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="networksolutions主机、域名、邮箱到期，最后处理方法："><a href="#networksolutions主机、域名、邮箱到期，最后处理方法：" class="headerlink" title="networksolutions主机、域名、邮箱到期，最后处理方法："></a>networksolutions主机、域名、邮箱到期，最后处理方法：</h1><h2 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h2><p>保留在networksolutions，保留nubrikon.com（2019年底到期）及cratol.com（2014年到期）这两个，而manova.com（2019年9月6号到期）就不再使用。</p><h2 id="空间"><a href="#空间" class="headerlink" title="空间"></a>空间</h2><ul><li>netwoksolutions的空间不再继续。</li><li>鉴于现在实际上需要的网站就nubrikon.com一个，所以对空间的要求并不高，nubrikon.com网站打算放到我的vultr，或者直接托管的到github pages，再绑定下域名即可。</li><li>放在github pages上，已经<a href="https://wushuanger.github.io/nubrikon/" target="_blank" rel="noopener">好了</a>，明天指定下域名（反正保留，明天就试一下，顺便看看行不行。）域名指向<a href="https://segmentfault.com/a/1190000011203711" target="_blank" rel="noopener">参考</a></li></ul><ol><li><p>刚试了一下，<a href="http://www.networksolutions.com/support/how-to-forward-your-network-solutions-domain-name-to-a-free-blog-service/" target="_blank" rel="noopener">networksolution上的操作</a>，失败。</p><ul><li><p>First, edit the A Records by selecting Edit A Records. </p><p>  For the “@ none” enter the following IP address 205.178.189.129(这个改成了192.30.252.153是github提供的ip）, clear the records for the “www” and “* (All others)”, then select Continue</p></li><li><p>Second, edit the Host Aliases (CNAME records) by selecting Edit CNAME Records. </p><p>  Enter “www” in the Alias column. </p><p>  Leave TTL set to 7200 but on the same line, enter the name servers provided by the blogging service in the Other Host section (for blogger.com, this name server would be ghs.google.com)（这里改成国wushuanger.github.io，是不是跟空间有关？所以把空间的文件名改掉，还是不行）</p></li><li><p><code>按照下面freedom的方法，重新改了这里的设置，最后可以了。就是把上面第二部中wushuanger.github.io改成manova.com，一开始没有成功，过了一小时左右居然好了。</code></p></li><li><p>突然想到，可以试一下第三方解析服务。顺便了解下cdn加速。</p><p>  <em>Cloudflare是一家国外的CDN全球加速服务商，支持https，它提供了不同的套餐，即使是免费的用户，它的CDN加速服务也很全面，除了全球CDN加速服务外，还有DDoS保护，域名解析，反向代理等等，免费SSL证书。</em></p><p>  <em>除了在本地存储图片，还可以将图片上传到一些免费的CDN服务中。比如Cloudinary提供的图片CDN服务，在Cloudinary中上传图片后，会生成对应的url地址，将地址直接拿来引用即可。</em></p><p>  <em><a href="https://www.itrhx.com/2019/08/11/A28-hexo-add-https/" target="_blank" rel="noopener">利用官方支持为基于GitHub Pages的Hexo博客启用HTTPS</a></em></p></li></ul></li><li><p>又在freedom上试了一下，参考<a href="https://www.youtube.com/watch?v=UYV6hpBevzc" target="_blank" rel="noopener">这个</a>，成功。</p><ul><li>加了两条记录： <img src="/images/freedom.png" alt></li><li>github pages 加上域名：<a href="http://www.nubrikon.tk" target="_blank" rel="noopener">www.nubrikon.tk</a></li></ul></li></ol><h2 id="邮箱"><a href="#邮箱" class="headerlink" title="邮箱"></a>邮箱</h2><ul><li>netwoksolutions的邮箱服务不再继续。暂定用mailgun转发gmail。</li><li>看了<a href="https://www.youtube.com/watch?v=0DgANxfdkeU" target="_blank" rel="noopener">Using Mailgun to Setup a Professional Custom Email for Free in Gmail</a>,觉得这个办法可行啊。</li><li>但因为mailgun需要绑定信用卡，所以找了其他服务看看行不行。试了sendgrid，参考<a href="https://medium.com/issacaption/using-a-custom-domain-in-gmail-for-free-with-mailgun-and-sendgrid-2c54e681f378" target="_blank" rel="noopener">Using a Custom Domain in Gmail for Free with Mailgun and Sendgrid</a>，在google有一部卡住了，这个文章也没提到这个，anyway，sendgrid好像必须先有具体邮箱地址才可以呀，mailgun是直接以domain为单位，指定了域名，再在mailgun里create具体邮箱？确定是这样的话，还是mailgun合适咯，到年底再explore看看。。而且这篇文章还提到mailgun的免费用户（好像是说的没有绑定信用卡的用户？）在发邮箱的时候会让对方确认是否收来自mailgun的邮件？这个有点不顺畅了，这里有个问题就是，我注册mailgun的时候就是需要绑定信用卡的，没有不绑定这个选项啊，所以这里说的信息可能是过期信息，绑定信用卡应该很有可能就不会收到这个信息。到时候再确认下（比如到文章中提到的那个人的空间）。</li></ul><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><ul><li><p>一开始networksolutions续费报价（每年）：空间380刀，每个域名40刀，每个邮箱地址，注意是每个邮箱，21刀，每个域名至少三个邮箱地址吧，2个域名，域名总价就是21X3X2=126刀。</p></li><li><p>看了下域名服务商价格，networksolutions确实比较贵，其他服务商续费基本都在十几刀一年，比如name.com，续费价格是12.99,迁移费9.99。 namecheap，续费价格是12.98，迁移费用8.88。<a href="https://www.domcomp.com/tld/com" target="_blank" rel="noopener">更多服务商价格比对</a>。</p></li><li><p>explore过程中看到有人说networksolutions在你要迁的时候，他们会给你打折😂。所以又问了下，果然降价了。。最后的报价是：空间210刀（包括两个域名），每个域名12刀，邮箱价格不变。。</p></li><li><p>最后决定在networksolutions就保留连个域名。</p></li></ul><p>参考文章：<br><a href="https://xujinkai.net/posts/get-your-own-domain-mail" target="_blank" rel="noopener">打造个性域名邮箱的几个方案</a><br><a href="https://qblog.org/tools/use-gmail-mailgun-get-free-domain-email.html" target="_blank" rel="noopener">#转载#用Gmail和Mailgun实现免费域名邮箱</a></p><p>autodiscover       autodiscover.hostingplatform.com.</p><p>mail               mail.manova.com.netsolmail.net.</p><p>smtp               smtp.manova.com.netsolmail.net.</p>]]></content>
+    
+    <summary type="html">
+    
+      networksolutions保留两个域名，空间及邮箱不再继续。省了约300刀/年。
+    
+    </summary>
+    
+    
+      <category term="hosting" scheme="http://yoursite.com/categories/hosting/"/>
+    
+    
+      <category term="第二事业" scheme="http://yoursite.com/tags/%E7%AC%AC%E4%BA%8C%E4%BA%8B%E4%B8%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>first.md</title>
+    <link href="http://yoursite.com/2019/09/03/first-md/"/>
+    <id>http://yoursite.com/2019/09/03/first-md/</id>
+    <published>2019-09-03T11:14:28.000Z</published>
+    <updated>2019-09-03T18:31:28.988Z</updated>
+    
+    <content type="html"><![CDATA[<p>所以路径在哪里？分类怎么分？</p>]]></content>
+    
+    <summary type="html">
+    
+      这篇文章是关于Freemind.386的介绍.
+    
+    </summary>
+    
+    
+      <category term="AE" scheme="http://yoursite.com/categories/AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/09/03/hello-world/"/>
+    <id>http://yoursite.com/2019/09/03/hello-world/</id>
+    <published>2019-09-03T10:41:46.875Z</published>
+    <updated>2019-09-03T12:36:18.185Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+      <category term="intro" scheme="http://yoursite.com/categories/intro/"/>
+    
+    
+  </entry>
+  
+</feed>
