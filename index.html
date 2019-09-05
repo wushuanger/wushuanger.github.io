@@ -192,10 +192,9 @@ var _hmt = _hmt || [];
 		</div>
 	
 	
-		<p>参考了这个搭的hexo博客。<a href="https://www.youtube.com/watch?v=RcJxnNpj64k" target="_blank" rel="noopener">如何用hexo+github pages 搭建免费博客</a><br>这个后续加深理解主题，<a href="https://blog.csdn.net/lsshlsw/article/details/50322465" target="_blank" rel="noopener">Hexo 主题使用进阶</a><br>当然这个，具体主题。<a href="http://blackshow.me/2015/11/25/hexo-theme-freemind-386-readme-cn/" target="_blank" rel="noopener">FREEMIND.386中文说明</a><br>基本上参考这些<a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">教程</a>可以解决.</p>
-<p>to github在卡在github提示Permission denied (publickey)，知乎的这个答案解决我的问题。<br><img src="/images/denied.png" alt></p>
-<p>gitalk<br><a href="https://segmentfault.com/a/1190000014085547" target="_blank" rel="noopener">https://segmentfault.com/a/1190000014085547</a><br><a href="https://iochen.com/2018/01/06/use-gitalk-in-hexo/#ejs%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%B3%95" target="_blank" rel="noopener">https://iochen.com/2018/01/06/use-gitalk-in-hexo/#ejs%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E6%B3%95</a><br>上面这两个里面内容都加了。不行。<br>再改吧。如果需要改回来，再看文章我都改了什么。</p>
-<p>接下来参考这个看看吧<br><a href="https://www.voidking.com/dev-hexo-gitalk-comment-plugin/" target="_blank" rel="noopener">https://www.voidking.com/dev-hexo-gitalk-comment-plugin/</a></p>
+		<p>参考了这个搭的hexo博客。<a href="https://www.youtube.com/watch?v=RcJxnNpj64k" target="_blank" rel="noopener">如何用hexo+github pages 搭建免费博客</a><br>这个后续加深理解主题，<a href="https://blog.csdn.net/lsshlsw/article/details/50322465" target="_blank" rel="noopener">Hexo 主题使用进阶</a><br>当然还有这个具体主题。<a href="http://blackshow.me/2015/11/25/hexo-theme-freemind-386-readme-cn/" target="_blank" rel="noopener">FREEMIND.386中文说明</a><br>基本上参考这些<a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">教程</a>可以解决.</p>
+<p>Deploy to github时卡在提示「Permission denied (publickey)」，<a href="https://www.zhihu.com/question/21402411" target="_blank" rel="noopener">小楼昨夜又东风的答案</a>解决了我的问题。</p>
+<p>Disqus: 参考<a href="https://www.jianshu.com/p/c4f65ebe23ad" target="_blank" rel="noopener">这个</a></p>
 
 	
 	</div>
@@ -248,16 +247,13 @@ var _hmt = _hmt || [];
 </li>
 <li><p>突然想到，可以试一下第三方解析服务。顺便了解下cdn加速。</p>
 <blockquote>
-<p>Cloudflare是一家国外的CDN全球加速服务商，支持https，它提供了不同的套餐，即使是免费的用户，它的CDN加速服务也很全面，除了全球CDN加速服务外，还有DDoS保护，域名解析，反向代理等等，免费SSL证书。</p>
+<p>Cloudflare是一家国外的CDN全球加速服务商，支持https，它提供了不同的套餐，即使是免费的用户，它的CDN加速服务也很全面，除了全球CDN加速服务外，还有DDoS保护，域名解析，反向代理等等，免费SSL证书。<br>除了在本地存储图片，还可以将图片上传到一些免费的CDN服务中。比如Cloudinary提供的图片CDN服务，在Cloudinary中上传图片后，会生成对应的url地址，将地址直接拿来引用即可。<br><a href="https://www.itrhx.com/2019/08/11/A28-hexo-add-https/" target="_blank" rel="noopener">利用官方支持为基于GitHub Pages的Hexo博客启用HTTPS</a></p>
 </blockquote>
 </li>
 </ul>
 </li>
 </ol>
-<pre><code>&gt; 除了在本地存储图片，还可以将图片上传到一些免费的CDN服务中。比如Cloudinary提供的图片CDN服务，在Cloudinary中上传图片后，会生成对应的url地址，将地址直接拿来引用即可。
-
-
-&gt; [利用官方支持为基于GitHub Pages的Hexo博客启用HTTPS](https://www.itrhx.com/2019/08/11/A28-hexo-add-https/)</code></pre><ol start="2">
+<ol start="2">
 <li>又在freedom上试了一下，参考<a href="https://www.youtube.com/watch?v=UYV6hpBevzc" target="_blank" rel="noopener">这个</a>，成功。完全按照视频操作，<ul>
 <li>在freedom，加了1条A记录，1条CNAME记录。</li>
 <li>在github pages 加上域名：<a href="http://www.domain.com" target="_blank" rel="noopener">www.domain.com</a></li>
@@ -409,9 +405,13 @@ var _hmt = _hmt || [];
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/theme/">theme<span>1</span></a></li>
+			<li><a href="/tags/deploy/">deploy<span>1</span></a></li>
 		
 			<li><a href="/tags/hexo/">hexo<span>1</span></a></li>
+		
+			<li><a href="/tags/theme/">theme<span>1</span></a></li>
+		
+			<li><a href="/tags/disqus/">disqus<span>1</span></a></li>
 		
 		 
 		</ul>
