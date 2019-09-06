@@ -6,30 +6,15 @@
   <meta http-equiv="cache-control" content="no-cache">
   <meta http-equiv="expires" content="0">
   
-  <title>wushuang</title>
+  <title>tour html | wushuang</title>
   
   
-  <meta name="description" content="Hot spots
-    
-    
-    
-    #panorama {
-        width: 600px;
-        height: 400px;
-    }
-    
-
-
-
-
-
-pannellum.viewer(&#39;panorama&#39;, {
-    &#34;type&#34;: &#34;equi">
+  <meta name="description" content="todd 3D panorama view">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="tour html">
   <meta property="og:site_name" content="wushuang">
 
   
@@ -137,7 +122,7 @@ var _hmt = _hmt || [];
 
 	
 		<div class="page-header">
-			<h1> </h1>
+			<h1> tour html</h1>
 		</div>
 	
 
@@ -152,21 +137,29 @@ var _hmt = _hmt || [];
 
 	<!-- content -->
 	<div class="mypage">		
+	  
+		 <div class="alert alert-success description">
+			<i class="fa fa-info-circle"></i> todd 3D panorama view
+		 </div> <!-- alert -->
 	  		
 
 	  
+<p>在md文件插入html，要使用your html插入html，不用的话不显示。实际上直接在-post中加个html文件更直接，效果也更好，就像本页面。</p>
+
+<a href="https://pannellum.org/documentation/examples/tour/" target="_blank" rel="noopener">Pannellum</a>
+
 <!DOCTYPE HTML>
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot spots</title>
+    <title>Tour</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>
     <style>
     #panorama {
-        width: 600px;
-        height: 400px;
+        width: 800px;
+        height: 500px;
     }
     </style>
 </head>
@@ -174,37 +167,51 @@ var _hmt = _hmt || [];
 
 <div id="panorama"></div>
 <script>
-pannellum.viewer('panorama', {
-    "type": "equirectangular",
-    "panorama": "/images/p1.PNG",
-    /*
-     * Uncomment the next line to print the coordinates of mouse clicks
-     * to the browser's developer console, which makes it much easier
-     * to figure out where to place hot spots. Always remove it when
-     * finished, though.
-     */
-    //"hotSpotDebug": true,
-    "hotSpots": [
-        {
-            "pitch": 14.1,
-            "yaw": 1.5,
-            "type": "info",
-            "text": "Baltimore Museum of Art",
-            "URL": "https://artbma.org/"
+pannellum.viewer('panorama', {   
+    "default": {
+        "firstScene": "circle",
+        "author": "wushuang",
+        "sceneFadeDuration": 1000
+    },
+
+    "scenes": {
+        "circle": {
+            "title": "Mason Circle",
+            "hfov": 110,
+            "pitch": -3,
+            "yaw": 117,
+            "type": "equirectangular",
+            "panorama": "/images/p1.PNG",
+            "hotSpots": [
+                {
+                    "pitch": -12.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "Spring House or Dairy",
+                    "sceneId": "house"
+                }
+            ]
         },
-        {
-            "pitch": -9.4,
-            "yaw": 222.6,
-            "type": "info",
-            "text": "Art Museum Drive"
-        },
-        {
-            "pitch": -0.9,
-            "yaw": 144.4,
-            "type": "info",
-            "text": "North Charles Street"
+
+        "house": {
+            "title": "Spring House or Dairy",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "/images/p2.PNG",
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "Mason Circle",
+                    "sceneId": "circle",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
         }
-    ]
+    }
 });
 </script>
 
@@ -218,7 +225,7 @@ pannellum.viewer('panorama', {
 
     
     
-    <a href="/2019/09/06/tour/" type="button" class="btn btn-default"><i
+    <a href="/2019/09/06/tourmd/" type="button" class="btn btn-default"><i
                 class="fa fa-arrow-circle-o-left"></i> Prev</a>
     
 
@@ -261,12 +268,37 @@ pannellum.viewer('panorama', {
 
 	<!-- categories -->
     
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/panorama/">panorama<span>2</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
 
 	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/tour/">tour<span>2</span></a></li> <li><a href="/tags/hotspot/">hotspot<span>2</span></a></li> <li><a href="/tags/pannellum/">pannellum<span>2</span></a></li>
+    </ul>
+	</div>
 		
 
 	<!-- toc -->
 	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+		   <span class="toc-title">Contents</span>
+			
+		</div>
 	
 	</div>
 	
@@ -316,9 +348,9 @@ var disqus_shortname = 'wushuang';
   <script type="text/javascript">
   var disqus_shortname = 'wushuang';
   var disqus_config = function () {
-      this.page.url = 'http://yoursite.com/2019/09/06/hotspot/';
-      this.page.identifier = '/2019/09/06/hotspot/';
-      this.page.title = '';
+      this.page.url = 'http://yoursite.com/2019/09/06/tourhtml/';
+      this.page.identifier = '/2019/09/06/tourhtml/';
+      this.page.title = 'tour html';
   };
   (function(){
     var d = document;
