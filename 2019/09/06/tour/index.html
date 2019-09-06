@@ -6,30 +6,15 @@
   <meta http-equiv="cache-control" content="no-cache">
   <meta http-equiv="expires" content="0">
   
-  <title>wushuang</title>
+  <title>tour | wushuang</title>
   
   
-  <meta name="description" content="Hot spots
-    
-    
-    
-    #panorama {
-        width: 600px;
-        height: 400px;
-    }
-    
-
-
-
-
-
-pannellum.viewer(&#39;panorama&#39;, {
-    &#34;type&#34;: &#34;equi">
+  <meta name="description" content="todd 3D panorama view">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="tour">
   <meta property="og:site_name" content="wushuang">
 
   
@@ -137,7 +122,7 @@ var _hmt = _hmt || [];
 
 	
 		<div class="page-header">
-			<h1> </h1>
+			<h1> tour</h1>
 		</div>
 	
 
@@ -152,15 +137,19 @@ var _hmt = _hmt || [];
 
 	<!-- content -->
 	<div class="mypage">		
+	  
+		 <div class="alert alert-success description">
+			<i class="fa fa-info-circle"></i> todd 3D panorama view
+		 </div> <!-- alert -->
 	  		
 
-	  
+	  <p><a href="https://pannellum.org/documentation/examples/tour/" target="_blank" rel="noopener">https://pannellum.org/documentation/examples/tour/</a></p>
 <!DOCTYPE HTML>
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot spots</title>
+    <title>Tour</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>
     <style>
@@ -174,40 +163,51 @@ var _hmt = _hmt || [];
 
 <div id="panorama"></div>
 <script>
-pannellum.viewer('panorama', {
-    "type": "equirectangular",
-    "panorama": "/images/p1.PNG",
-    /*
-     * Uncomment the next line to print the coordinates of mouse clicks
-     * to the browser's developer console, which makes it much easier
-     * to figure out where to place hot spots. Always remove it when
-     * finished, though.
-     */
-    //"hotSpotDebug": true,
-    "hotSpots": [
-        {
-            "pitch": 14.1,
-            "yaw": 1.5,
-            "type": "info",
-            "text": "Baltimore Museum of Art",
-            "URL": "https://artbma.org/"
-        },
-        {
-            "pitch": -9.4,
-            "yaw": 222.6,
-            "type": "info",
-            "text": "Art Museum Drive"
-        },
-        {
-            "pitch": -0.9,
-            "yaw": 144.4,
-            "type": "info",
-            "text": "North Charles Street"
-        }
-    ]
-});
-</script>
+pannellum.viewer('panorama', {   
+    "default": {
+        "firstScene": "circle",
+        "author": "wushuang",
+        "sceneFadeDuration": 1000
+    },
 
+<pre><code>&quot;scenes&quot;: {
+    &quot;circle&quot;: {
+        &quot;title&quot;: &quot;Mason Circle&quot;,
+        &quot;hfov&quot;: 110,
+        &quot;pitch&quot;: -3,
+        &quot;yaw&quot;: 117,
+        &quot;type&quot;: &quot;equirectangular&quot;,
+        &quot;panorama&quot;: &quot;/images/p1.PNG&quot;,
+        &quot;hotSpots&quot;: [
+            {
+                &quot;pitch&quot;: -12.1,
+                &quot;yaw&quot;: 132.9,
+                &quot;type&quot;: &quot;scene&quot;,
+                &quot;text&quot;: &quot;Spring House or Dairy&quot;,
+                &quot;sceneId&quot;: &quot;house&quot;
+            }
+        ]
+    },
+
+    &quot;house&quot;: {
+        &quot;title&quot;: &quot;Spring House or Dairy&quot;,
+        &quot;hfov&quot;: 110,
+        &quot;yaw&quot;: 5,
+        &quot;type&quot;: &quot;equirectangular&quot;,
+        &quot;panorama&quot;: &quot;/images/p2.PNG&quot;,
+        &quot;hotSpots&quot;: [
+            {
+                &quot;pitch&quot;: -0.6,
+                &quot;yaw&quot;: 37.1,
+                &quot;type&quot;: &quot;scene&quot;,
+                &quot;text&quot;: &quot;Mason Circle&quot;,
+                &quot;sceneId&quot;: &quot;circle&quot;,
+                &quot;targetYaw&quot;: -23,
+                &quot;targetPitch&quot;: 2
+            }
+        ]
+    }
+}</code></pre><p>});<br></script><p></p>
 </body>
 </html>	  
 	</div>
@@ -218,13 +218,12 @@ pannellum.viewer('panorama', {
 
     
     
-    <a href="/2019/09/06/tour/" type="button" class="btn btn-default"><i
-                class="fa fa-arrow-circle-o-left"></i> Prev</a>
+    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i>Prev</a>
     
 
     <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
     
-    <a href="/2019/09/05/revit-twinmotion-map-real-contour/" type="button" class="btn btn-default ">Next<i
+    <a href="/2019/09/06/hotspot/" type="button" class="btn btn-default ">Next<i
                 class="fa fa-arrow-circle-o-right"></i></a>
     
 
@@ -261,12 +260,37 @@ pannellum.viewer('panorama', {
 
 	<!-- categories -->
     
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/panorama/">panorama<span>1</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
 
 	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/tour/">tour<span>1</span></a></li> <li><a href="/tags/hotspot/">hotspot<span>1</span></a></li> <li><a href="/tags/pannellum/">pannellum<span>1</span></a></li>
+    </ul>
+	</div>
 		
 
 	<!-- toc -->
 	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+		   <span class="toc-title">Contents</span>
+			
+		</div>
 	
 	</div>
 	
@@ -316,9 +340,9 @@ var disqus_shortname = 'wushuang';
   <script type="text/javascript">
   var disqus_shortname = 'wushuang';
   var disqus_config = function () {
-      this.page.url = 'http://yoursite.com/2019/09/06/hotspot/';
-      this.page.identifier = '/2019/09/06/hotspot/';
-      this.page.title = '';
+      this.page.url = 'http://yoursite.com/2019/09/06/tour/';
+      this.page.identifier = '/2019/09/06/tour/';
+      this.page.title = 'tour';
   };
   (function(){
     var d = document;

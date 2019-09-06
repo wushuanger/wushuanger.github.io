@@ -6,10 +6,37 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-06T09:56:16.383Z</updated>
+  <updated>2019-09-06T10:14:35.140Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tour</title>
+    <link href="http://yoursite.com/2019/09/06/tour/"/>
+    <id>http://yoursite.com/2019/09/06/tour/</id>
+    <published>2019-09-06T09:45:04.686Z</published>
+    <updated>2019-09-06T10:14:35.140Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://pannellum.org/documentation/examples/tour/" target="_blank" rel="noopener">https://pannellum.org/documentation/examples/tour/</a></p><!DOCTYPE HTML><html><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Tour</title>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>    <style>    #panorama {        width: 600px;        height: 400px;    }    </style></head><body><div id="panorama"></div><script>pannellum.viewer('panorama', {       "default": {        "firstScene": "circle",        "author": "wushuang",        "sceneFadeDuration": 1000    },<pre><code>&quot;scenes&quot;: {    &quot;circle&quot;: {        &quot;title&quot;: &quot;Mason Circle&quot;,        &quot;hfov&quot;: 110,        &quot;pitch&quot;: -3,        &quot;yaw&quot;: 117,        &quot;type&quot;: &quot;equirectangular&quot;,        &quot;panorama&quot;: &quot;/images/p1.PNG&quot;,        &quot;hotSpots&quot;: [            {                &quot;pitch&quot;: -12.1,                &quot;yaw&quot;: 132.9,                &quot;type&quot;: &quot;scene&quot;,                &quot;text&quot;: &quot;Spring House or Dairy&quot;,                &quot;sceneId&quot;: &quot;house&quot;            }        ]    },    &quot;house&quot;: {        &quot;title&quot;: &quot;Spring House or Dairy&quot;,        &quot;hfov&quot;: 110,        &quot;yaw&quot;: 5,        &quot;type&quot;: &quot;equirectangular&quot;,        &quot;panorama&quot;: &quot;/images/p2.PNG&quot;,        &quot;hotSpots&quot;: [            {                &quot;pitch&quot;: -0.6,                &quot;yaw&quot;: 37.1,                &quot;type&quot;: &quot;scene&quot;,                &quot;text&quot;: &quot;Mason Circle&quot;,                &quot;sceneId&quot;: &quot;circle&quot;,                &quot;targetYaw&quot;: -23,                &quot;targetPitch&quot;: 2            }        ]    }}</code></pre><p>});<br></script><p></p></body></html>]]></content>
+    
+    <summary type="html">
+    
+      todd 3D panorama view
+    
+    </summary>
+    
+    
+      <category term="panorama" scheme="http://yoursite.com/categories/panorama/"/>
+    
+    
+      <category term="tour" scheme="http://yoursite.com/tags/tour/"/>
+    
+      <category term="hotspot" scheme="http://yoursite.com/tags/hotspot/"/>
+    
+      <category term="pannellum" scheme="http://yoursite.com/tags/pannellum/"/>
+    
+  </entry>
   
   <entry>
     <title></title>
