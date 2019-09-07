@@ -6,46 +6,19 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-06T12:26:20.683Z</updated>
+  <updated>2019-09-07T13:12:59.689Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>tourmd</title>
-    <link href="http://yoursite.com/2019/09/06/tourmd/"/>
-    <id>http://yoursite.com/2019/09/06/tourmd/</id>
+    <title>Panorama Tour</title>
+    <link href="http://yoursite.com/2019/09/06/Panorama%20Tour/"/>
+    <id>http://yoursite.com/2019/09/06/Panorama Tour/</id>
     <published>2019-09-06T15:30:50.000Z</published>
-    <updated>2019-09-06T12:26:20.683Z</updated>
+    <updated>2019-09-07T13:12:59.689Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="pannellum"><a href="#pannellum" class="headerlink" title="pannellum"></a><a href="https://pannellum.org/documentation/examples/tour/" target="_blank" rel="noopener">pannellum</a></h2><h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe width="847" height="500" src="https://www.youtube.com/embed/s6qRz6QJu3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="md插入html，效果如下："><a href="#md插入html，效果如下：" class="headerlink" title="md插入html，效果如下："></a>md插入html，效果如下：</h2><blockquote><p>使用your html插入html即可，不用这条不显示。实际上直接在-post中加个html文件更直接，效果也更好。</p></blockquote><!DOCTYPE HTML><html><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Tour</title>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>    <style>    #panorama {        width: 847px;        height: 500px;    }    </style></head><body><div id="panorama"></div><script>pannellum.viewer('panorama', {       "default": {        "firstScene": "circle",        "author": "wushuang",        "sceneFadeDuration": 1000    },    "scenes": {        "circle": {            "title": "Mason Circle",            "hfov": 110,            "pitch": -3,            "yaw": 117,            "type": "equirectangular",            "panorama": "/images/p1.PNG",            "hotSpots": [                {                    "pitch": -12.1,                    "yaw": 132.9,                    "type": "scene",                    "text": "Spring House or Dairy",                    "sceneId": "house"                }            ]        },        "house": {            "title": "Spring House or Dairy",            "hfov": 110,            "yaw": 5,            "type": "equirectangular",            "panorama": "/images/p2.PNG",            "hotSpots": [                {                    "pitch": -0.6,                    "yaw": 37.1,                    "type": "scene",                    "text": "Mason Circle",                    "sceneId": "circle",                    "targetYaw": -23,                    "targetPitch": 2                }            ]        }    }});</script></body></html>]]></content>
-    
-    <summary type="html">
-    
-      todd 3D panorama view
-    
-    </summary>
-    
-    
-      <category term="panorama" scheme="http://yoursite.com/categories/panorama/"/>
-    
-    
-      <category term="tour" scheme="http://yoursite.com/tags/tour/"/>
-    
-      <category term="hotspot" scheme="http://yoursite.com/tags/hotspot/"/>
-    
-      <category term="pannellum" scheme="http://yoursite.com/tags/pannellum/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>tour html</title>
-    <link href="http://yoursite.com/2019/09/06/tourhtml/"/>
-    <id>http://yoursite.com/2019/09/06/tourhtml/</id>
-    <published>2019-09-06T09:45:04.686Z</published>
-    <updated>2019-09-06T10:50:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>在md文件插入html，要使用your html插入html，不用的话不显示。实际上直接在-post中加个html文件更直接，效果也更好，就像本页面。</p><a href="https://pannellum.org/documentation/examples/tour/" target="_blank" rel="noopener">Pannellum</a><!DOCTYPE HTML><html><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Tour</title>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>    <style>    #panorama {        width: 800px;        height: 500px;    }    </style></head><body><div id="panorama"></div><script>pannellum.viewer('panorama', {       "default": {        "firstScene": "circle",        "author": "wushuang",        "sceneFadeDuration": 1000    },    "scenes": {        "circle": {            "title": "Mason Circle",            "hfov": 110,            "pitch": -3,            "yaw": 117,            "type": "equirectangular",            "panorama": "/images/p1.PNG",            "hotSpots": [                {                    "pitch": -12.1,                    "yaw": 132.9,                    "type": "scene",                    "text": "Spring House or Dairy",                    "sceneId": "house"                }            ]        },        "house": {            "title": "Spring House or Dairy",            "hfov": 110,            "yaw": 5,            "type": "equirectangular",            "panorama": "/images/p2.PNG",            "hotSpots": [                {                    "pitch": -0.6,                    "yaw": 37.1,                    "type": "scene",                    "text": "Mason Circle",                    "sceneId": "circle",                    "targetYaw": -23,                    "targetPitch": 2                }            ]        }    }});</script></body></html>]]></content>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/s6qRz6QJu3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><blockquote><p>需在md中使用「raw, endraw」标签插入html。实际上直接在-post中加个html文件同样可以读取。</p></blockquote><!DOCTYPE HTML><html><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Tour</title>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>    <style>    #panorama {        width: 560px;        height: 315px;    }    </style></head><body><div id="panorama"></div><script>pannellum.viewer('panorama', {       "default": {        "firstScene": "circle",        "author": "wushuang",        "sceneFadeDuration": 1000    },    "scenes": {        "circle": {            "title": "Mason Circle",            "hfov": 110,            "pitch": -3,            "yaw": 117,            "type": "equirectangular",            "panorama": "/images/p1.PNG",            "hotSpots": [                {                    "pitch": -12.1,                    "yaw": 132.9,                    "type": "scene",                    "text": "Spring House or Dairy",                    "sceneId": "house"                }            ]        },        "house": {            "title": "Spring House or Dairy",            "hfov": 110,            "yaw": 5,            "type": "equirectangular",            "panorama": "/images/p2.PNG",            "hotSpots": [                {                    "pitch": -0.6,                    "yaw": 37.1,                    "type": "scene",                    "text": "Mason Circle",                    "sceneId": "circle",                    "targetYaw": -23,                    "targetPitch": 2                }            ]        }    }});</script></body></html>]]></content>
     
     <summary type="html">
     
@@ -155,7 +128,7 @@
     <link href="http://yoursite.com/2019/09/03/hello-world/"/>
     <id>http://yoursite.com/2019/09/03/hello-world/</id>
     <published>2019-09-03T10:41:46.875Z</published>
-    <updated>2019-09-03T12:36:18.185Z</updated>
+    <updated>2019-09-07T13:14:11.454Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -171,6 +144,8 @@
     
       <category term="intro" scheme="http://yoursite.com/categories/intro/"/>
     
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   

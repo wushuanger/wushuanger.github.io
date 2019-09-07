@@ -4,40 +4,11 @@
   
     
     <entry>
-      <title>tourmd</title>
-      <link href="/2019/09/06/tourmd/"/>
-      <url>/2019/09/06/tourmd/</url>
+      <title>Panorama Tour</title>
+      <link href="/2019/09/06/Panorama%20Tour/"/>
+      <url>/2019/09/06/Panorama%20Tour/</url>
       
-        <content type="html"><![CDATA[<h2 id="pannellum"><a href="#pannellum" class="headerlink" title="pannellum"></a><a href="https://pannellum.org/documentation/examples/tour/" target="_blank" rel="noopener">pannellum</a></h2><h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><iframe width="847" height="500" src="https://www.youtube.com/embed/s6qRz6QJu3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><h2 id="md插入html，效果如下："><a href="#md插入html，效果如下：" class="headerlink" title="md插入html，效果如下："></a>md插入html，效果如下：</h2><blockquote><p>使用your html插入html即可，不用这条不显示。实际上直接在-post中加个html文件更直接，效果也更好。</p></blockquote><!DOCTYPE HTML><html><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Tour</title>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>    <style>    #panorama {        width: 847px;        height: 500px;    }    </style></head><body><div id="panorama"></div><script>pannellum.viewer('panorama', {       "default": {        "firstScene": "circle",        "author": "wushuang",        "sceneFadeDuration": 1000    },    "scenes": {        "circle": {            "title": "Mason Circle",            "hfov": 110,            "pitch": -3,            "yaw": 117,            "type": "equirectangular",            "panorama": "/images/p1.PNG",            "hotSpots": [                {                    "pitch": -12.1,                    "yaw": 132.9,                    "type": "scene",                    "text": "Spring House or Dairy",                    "sceneId": "house"                }            ]        },        "house": {            "title": "Spring House or Dairy",            "hfov": 110,            "yaw": 5,            "type": "equirectangular",            "panorama": "/images/p2.PNG",            "hotSpots": [                {                    "pitch": -0.6,                    "yaw": 37.1,                    "type": "scene",                    "text": "Mason Circle",                    "sceneId": "circle",                    "targetYaw": -23,                    "targetPitch": 2                }            ]        }    }});</script></body></html>]]></content>
-      
-      
-      <categories>
-          
-          <category> panorama </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> tour </tag>
-            
-            <tag> hotspot </tag>
-            
-            <tag> pannellum </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tour html</title>
-      <link href="/2019/09/06/tourhtml/"/>
-      <url>/2019/09/06/tourhtml/</url>
-      
-        <content type="html"><![CDATA[<p>在md文件插入html，要使用your html插入html，不用的话不显示。实际上直接在-post中加个html文件更直接，效果也更好，就像本页面。</p><a href="https://pannellum.org/documentation/examples/tour/" target="_blank" rel="noopener">Pannellum</a><!DOCTYPE HTML><html><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Tour</title>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>    <style>    #panorama {        width: 800px;        height: 500px;    }    </style></head><body><div id="panorama"></div><script>pannellum.viewer('panorama', {       "default": {        "firstScene": "circle",        "author": "wushuang",        "sceneFadeDuration": 1000    },    "scenes": {        "circle": {            "title": "Mason Circle",            "hfov": 110,            "pitch": -3,            "yaw": 117,            "type": "equirectangular",            "panorama": "/images/p1.PNG",            "hotSpots": [                {                    "pitch": -12.1,                    "yaw": 132.9,                    "type": "scene",                    "text": "Spring House or Dairy",                    "sceneId": "house"                }            ]        },        "house": {            "title": "Spring House or Dairy",            "hfov": 110,            "yaw": 5,            "type": "equirectangular",            "panorama": "/images/p2.PNG",            "hotSpots": [                {                    "pitch": -0.6,                    "yaw": 37.1,                    "type": "scene",                    "text": "Mason Circle",                    "sceneId": "circle",                    "targetYaw": -23,                    "targetPitch": 2                }            ]        }    }});</script></body></html>]]></content>
+        <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/s6qRz6QJu3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a id="more"></a><blockquote><p>需在md中使用「raw, endraw」标签插入html。实际上直接在-post中加个html文件同样可以读取。</p></blockquote><!DOCTYPE HTML><html><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Tour</title>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.css">    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.3/build/pannellum.js"></script>    <style>    #panorama {        width: 560px;        height: 315px;    }    </style></head><body><div id="panorama"></div><script>pannellum.viewer('panorama', {       "default": {        "firstScene": "circle",        "author": "wushuang",        "sceneFadeDuration": 1000    },    "scenes": {        "circle": {            "title": "Mason Circle",            "hfov": 110,            "pitch": -3,            "yaw": 117,            "type": "equirectangular",            "panorama": "/images/p1.PNG",            "hotSpots": [                {                    "pitch": -12.1,                    "yaw": 132.9,                    "type": "scene",                    "text": "Spring House or Dairy",                    "sceneId": "house"                }            ]        },        "house": {            "title": "Spring House or Dairy",            "hfov": 110,            "yaw": 5,            "type": "equirectangular",            "panorama": "/images/p2.PNG",            "hotSpots": [                {                    "pitch": -0.6,                    "yaw": 37.1,                    "type": "scene",                    "text": "Mason Circle",                    "sceneId": "circle",                    "targetYaw": -23,                    "targetPitch": 2                }            ]        }    }});</script></body></html>]]></content>
       
       
       <categories>
@@ -152,6 +123,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
