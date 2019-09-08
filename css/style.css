@@ -812,12 +812,7 @@ body {
   color: #2bbc8a;
 }
 #header-post #toc .toc-level-1 > .toc-link {
-  color: #363533;
-  font-size: 0.9rem;
-}
-#header-post #toc .toc-level-1 > .toc-link:before {
-  color: #d44375;
-  content: "#";
+  display: none;
 }
 #header-post #toc .toc-level-2 {
   color: #363533;
@@ -825,7 +820,7 @@ body {
 }
 #header-post #toc .toc-level-2:before {
   color: #d44375;
-  content: "##";
+  content: "#";
 }
 #header-post #toc .toc-level-3 {
   color: #666;
