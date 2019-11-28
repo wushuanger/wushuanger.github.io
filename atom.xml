@@ -30,8 +30,6 @@
       <category term="panorama" scheme="http://yoursite.com/categories/panorama/"/>
     
     
-      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
-    
       <category term="tour" scheme="http://yoursite.com/tags/tour/"/>
     
       <category term="hotspot" scheme="http://yoursite.com/tags/hotspot/"/>
@@ -39,6 +37,8 @@
       <category term="pannellum" scheme="http://yoursite.com/tags/pannellum/"/>
     
       <category term="3d" scheme="http://yoursite.com/tags/3d/"/>
+    
+      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
     
       <category term="panorama" scheme="http://yoursite.com/tags/panorama/"/>
     
@@ -49,9 +49,9 @@
     <link href="http://yoursite.com/2019/09/05/revit-twinmotion-map-real-contour/"/>
     <id>http://yoursite.com/2019/09/05/revit-twinmotion-map-real-contour/</id>
     <published>2019-09-05T15:30:50.000Z</published>
-    <updated>2019-09-08T09:16:48.331Z</updated>
+    <updated>2019-11-28T07:32:38.875Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>tool: Infraworks, Navisworks, Fromit, Revit</p></blockquote><p>while rendering in Twinmotion, topography can be adjusted by editing 「landscape」, but importing the topo file from Revit first is more accurate and convenient. here is the way i made the real topo for revit:</p><table><thead><tr><th>tool</th><th>origial size</th><th>topo editable</th></tr></thead><tbody><tr><td><a href="https://www.youtube.com/watch?v=frATJPDnkec" target="_blank" rel="noopener">Infraworks + Formit + Revit</a></td><td>✘, should scale the size</td><td>✔︎</td></tr><tr><td><a href="https://www.youtube.com/watch?v=navyZRemERE" target="_blank" rel="noopener">Infraworks + Navisworks + Revit</a></td><td>✔︎, could be the reference</td><td>✘</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>tool: Infraworks, Navisworks, Fromit, Revit</p></blockquote><p>while rendering in Twinmotion, topography can be adjusted by editing 「landscape」, but importing the topo file from Revit first is more accurate and convenient than adjusting 「landscape」. </p><p>but for some reason we don’t have topo files, so how we would get it? here’s the way i made the real topo for Revit:</p><table><thead><tr><th>tool</th><th>origial size</th><th>topo editable</th></tr></thead><tbody><tr><td><a href="https://www.youtube.com/watch?v=frATJPDnkec" target="_blank" rel="noopener">Infraworks + Formit + Revit</a></td><td>✘, should scale the size</td><td>✔︎</td></tr><tr><td><a href="https://www.youtube.com/watch?v=navyZRemERE" target="_blank" rel="noopener">Infraworks + Navisworks + Revit</a></td><td>✔︎, could be the reference</td><td>✘</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
@@ -67,6 +67,8 @@
     
     
     
+      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
+    
       <category term="map" scheme="http://yoursite.com/tags/map/"/>
     
       <category term="contour" scheme="http://yoursite.com/tags/contour/"/>
@@ -76,8 +78,6 @@
       <category term="topography" scheme="http://yoursite.com/tags/topography/"/>
     
       <category term="OSM" scheme="http://yoursite.com/tags/OSM/"/>
-    
-      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
     
   </entry>
   

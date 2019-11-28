@@ -20,8 +20,6 @@
       
         <tags>
             
-            <tag> twinmotion </tag>
-            
             <tag> tour </tag>
             
             <tag> hotspot </tag>
@@ -29,6 +27,8 @@
             <tag> pannellum </tag>
             
             <tag> 3d </tag>
+            
+            <tag> twinmotion </tag>
             
             <tag> panorama </tag>
             
@@ -43,11 +43,13 @@
       <link href="/2019/09/05/revit-twinmotion-map-real-contour/"/>
       <url>/2019/09/05/revit-twinmotion-map-real-contour/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>tool: Infraworks, Navisworks, Fromit, Revit</p></blockquote><p>while rendering in Twinmotion, topography can be adjusted by editing 「landscape」, but importing the topo file from Revit first is more accurate and convenient. here is the way i made the real topo for revit:</p><table><thead><tr><th>tool</th><th>origial size</th><th>topo editable</th></tr></thead><tbody><tr><td><a href="https://www.youtube.com/watch?v=frATJPDnkec" target="_blank" rel="noopener">Infraworks + Formit + Revit</a></td><td>✘, should scale the size</td><td>✔︎</td></tr><tr><td><a href="https://www.youtube.com/watch?v=navyZRemERE" target="_blank" rel="noopener">Infraworks + Navisworks + Revit</a></td><td>✔︎, could be the reference</td><td>✘</td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>tool: Infraworks, Navisworks, Fromit, Revit</p></blockquote><p>while rendering in Twinmotion, topography can be adjusted by editing 「landscape」, but importing the topo file from Revit first is more accurate and convenient than adjusting 「landscape」. </p><p>but for some reason we don’t have topo files, so how we would get it? here’s the way i made the real topo for Revit:</p><table><thead><tr><th>tool</th><th>origial size</th><th>topo editable</th></tr></thead><tbody><tr><td><a href="https://www.youtube.com/watch?v=frATJPDnkec" target="_blank" rel="noopener">Infraworks + Formit + Revit</a></td><td>✘, should scale the size</td><td>✔︎</td></tr><tr><td><a href="https://www.youtube.com/watch?v=navyZRemERE" target="_blank" rel="noopener">Infraworks + Navisworks + Revit</a></td><td>✔︎, could be the reference</td><td>✘</td></tr></tbody></table>]]></content>
       
       
       
         <tags>
+            
+            <tag> twinmotion </tag>
             
             <tag> map </tag>
             
@@ -58,8 +60,6 @@
             <tag> topography </tag>
             
             <tag> OSM </tag>
-            
-            <tag> twinmotion </tag>
             
         </tags>
       
