@@ -20,6 +20,8 @@
       
         <tags>
             
+            <tag> twinmotion </tag>
+            
             <tag> tour </tag>
             
             <tag> hotspot </tag>
@@ -27,8 +29,6 @@
             <tag> pannellum </tag>
             
             <tag> 3d </tag>
-            
-            <tag> twinmotion </tag>
             
             <tag> panorama </tag>
             
@@ -49,8 +49,6 @@
       
         <tags>
             
-            <tag> twinmotion </tag>
-            
             <tag> map </tag>
             
             <tag> contour </tag>
@@ -60,6 +58,8 @@
             <tag> topography </tag>
             
             <tag> OSM </tag>
+            
+            <tag> twinmotion </tag>
             
         </tags>
       

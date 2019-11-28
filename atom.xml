@@ -30,6 +30,8 @@
       <category term="panorama" scheme="http://yoursite.com/categories/panorama/"/>
     
     
+      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
+    
       <category term="tour" scheme="http://yoursite.com/tags/tour/"/>
     
       <category term="hotspot" scheme="http://yoursite.com/tags/hotspot/"/>
@@ -37,8 +39,6 @@
       <category term="pannellum" scheme="http://yoursite.com/tags/pannellum/"/>
     
       <category term="3d" scheme="http://yoursite.com/tags/3d/"/>
-    
-      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
     
       <category term="panorama" scheme="http://yoursite.com/tags/panorama/"/>
     
@@ -67,8 +67,6 @@
     
     
     
-      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
-    
       <category term="map" scheme="http://yoursite.com/tags/map/"/>
     
       <category term="contour" scheme="http://yoursite.com/tags/contour/"/>
@@ -78,6 +76,8 @@
       <category term="topography" scheme="http://yoursite.com/tags/topography/"/>
     
       <category term="OSM" scheme="http://yoursite.com/tags/OSM/"/>
+    
+      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
     
   </entry>
   
