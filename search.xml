@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>rsshub</title>
-      <link href="/2019/09/18/rsshub/"/>
-      <url>/2019/09/18/rsshub/</url>
-      
-        <content type="html"><![CDATA[<p>vps自建rsshub ttrss<br>订阅内容：</p><ol><li>航班廉价航空</li><li>小尖尖会觉得很厉害的东西，比如古典音乐，经济学人，bbc news</li><li>么瓯了没</li></ol>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>panorama tour</title>
       <link href="/2019/09/06/Panorama%20Tour/"/>
       <url>/2019/09/06/Panorama%20Tour/</url>
@@ -33,6 +20,8 @@
       
         <tags>
             
+            <tag> twinmotion </tag>
+            
             <tag> tour </tag>
             
             <tag> hotspot </tag>
@@ -40,8 +29,6 @@
             <tag> pannellum </tag>
             
             <tag> 3d </tag>
-            
-            <tag> twinmotion </tag>
             
             <tag> panorama </tag>
             
@@ -62,8 +49,6 @@
       
         <tags>
             
-            <tag> twinmotion </tag>
-            
             <tag> map </tag>
             
             <tag> contour </tag>
@@ -73,6 +58,8 @@
             <tag> topography </tag>
             
             <tag> OSM </tag>
+            
+            <tag> twinmotion </tag>
             
         </tags>
       

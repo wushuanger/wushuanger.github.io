@@ -6,38 +6,10 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-18T11:37:26.194Z</updated>
+  <updated>2019-09-08T09:20:56.450Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>rsshub</title>
-    <link href="http://yoursite.com/2019/09/18/rsshub/"/>
-    <id>http://yoursite.com/2019/09/18/rsshub/</id>
-    <published>2019-09-18T11:33:05.000Z</published>
-    <updated>2019-09-18T11:37:26.194Z</updated>
-    
-    <content type="html"><![CDATA[<p>vps自建rsshub ttrss<br>订阅内容：</p><ol><li>航班廉价航空</li><li>小尖尖会觉得很厉害的东西，比如古典音乐，经济学人，bbc news</li><li>么瓯了没</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;vps自建rsshub ttrss&lt;br&gt;订阅内容：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;航班廉价航空&lt;/li&gt;
-&lt;li&gt;小尖尖会觉得很厉害的东西，比如古典音乐，经济学人，bbc news&lt;/li&gt;
-&lt;li&gt;么瓯了没&lt;/li&gt;
-&lt;/ol&gt;
-
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>panorama tour</title>
@@ -58,6 +30,8 @@
       <category term="panorama" scheme="http://yoursite.com/categories/panorama/"/>
     
     
+      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
+    
       <category term="tour" scheme="http://yoursite.com/tags/tour/"/>
     
       <category term="hotspot" scheme="http://yoursite.com/tags/hotspot/"/>
@@ -65,8 +39,6 @@
       <category term="pannellum" scheme="http://yoursite.com/tags/pannellum/"/>
     
       <category term="3d" scheme="http://yoursite.com/tags/3d/"/>
-    
-      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
     
       <category term="panorama" scheme="http://yoursite.com/tags/panorama/"/>
     
@@ -95,8 +67,6 @@
     
     
     
-      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
-    
       <category term="map" scheme="http://yoursite.com/tags/map/"/>
     
       <category term="contour" scheme="http://yoursite.com/tags/contour/"/>
@@ -106,6 +76,8 @@
       <category term="topography" scheme="http://yoursite.com/tags/topography/"/>
     
       <category term="OSM" scheme="http://yoursite.com/tags/OSM/"/>
+    
+      <category term="twinmotion" scheme="http://yoursite.com/tags/twinmotion/"/>
     
   </entry>
   
